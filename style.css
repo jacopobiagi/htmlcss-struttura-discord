@@ -8,6 +8,7 @@
     font-family: 'Whitney, ‘Helvetica Neue’, Helvetica, Arial, sans-serif';
 }
 
+/* css dell'header */
 nav{
     background-color: aqua;
     height: 50px;
@@ -15,7 +16,7 @@ nav{
 }
 
 header > div{
-    height: 250px;
+    height: 300px;
     background-color: blue;
     display: flex;
 }
@@ -25,7 +26,7 @@ nav > div{
    width: 60%;
    height: 65%;  
    display: flex;
-   
+
 }
 
 nav > div > div{
@@ -56,4 +57,120 @@ nav > div > div{
 .link{
     width: 60%;
     justify-content: center;
+}
+
+/* css main */
+
+main > div{
+    height: 350px;
+    display: flex;
+}
+
+.grey{
+    background-color: rgb(195, 195, 195);
+}
+
+#big{
+    height: 700px;
+}
+
+.container{
+    display: flex;
+    height: 80%;
+    width: 60%;
+}
+
+.blueContent{
+    width: 60%;
+    border: 2px dashed black;
+    height: 100%;
+    margin: 0;
+    background-color: rgb(30, 144, 255);
+}
+
+.pinkContent{
+    width: 40%;
+    border: 2px dashed black;
+    height: 100%;
+    margin: 0;
+    background-color: rgb(255, 192, 203);
+}
+
+.greenContent{
+    width: 60%;
+    height: 80%;
+    background-color: rgb(34, 139, 34);
+    border: 2px dashed black;
+}
+
+/* css footer */
+
+.footerDiv{
+    height: 450px;
+    background-color: rgb(35, 39, 42);
+    border-bottom-color: rgb(196, 196, 196) ;
+}
+
+.lastDiv{
+    height: 75px;
+    background-color: rgb(35, 39, 42);
+    border-top-color: rgb(196, 196, 196);
+    display: flex;
+    align-items: flex-end;
+}
+
+.footerDiv > div{
+    display: flex;
+    height: 90%;
+    width: 60%;
+    padding-top: 10px;
+}
+
+.pinkLastContent{
+    width: 34%;
+    height: 100%;
+    background-color: rgb(240, 128, 128);
+    margin: 0;
+    border: 2px dashed black;
+}
+
+.forLightblueLastContent{
+    display: flex;
+    width: 66%;
+    height: 100%;
+    border: 2px dashed black;
+}
+
+.lightblueLastContent{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(32, 178, 170);
+    border: 2px dashed rgb(255, 255, 255);
+    margin: 0;
+}
+
+.lastDiv > div{
+    width: 60%;
+    height: 80%;
+    background-color: rgb(101, 194, 163);
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottomContent{
+    margin: auto 0;
+    height: 45%;
+    background-color: rgb(198, 143, 152);
+    border: 2px dashed black;
+    display: flex;
+}
+ 
+#logo{
+    width: 7%;
+}
+
+#bottone{
+    width: 10%
 }
