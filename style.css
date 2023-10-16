@@ -1,0 +1,58 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: 'Whitney, ‘Helvetica Neue’, Helvetica, Arial, sans-serif';
+}
+
+nav{
+    background-color: aqua;
+    height: 50px;
+    display: flex;
+}
+
+header > div{
+    height: 250px;
+    background-color: blue;
+    display: flex;
+}
+
+nav > div{
+   background-color: rgb(229, 172, 0);
+   width: 60%;
+   height: 65%;  
+   display: flex;
+}
+
+nav > div > div{
+    height: 100%;
+    border: 2px dashed black;
+    display: flex;
+    align-items: center;
+}
+
+.divHeader > div{
+    height: 70%;
+    width: 50%;
+    background-color: rgb(253 135 255);
+    border: 2px dashed black;
+}
+
+.logo{
+    width: 20%;
+    padding-left: 10px;
+}
+
+.login{
+    width: 20%;
+    justify-content: right;
+    padding-right: 10px;
+}
+
+.link{
+    width: 60%;
+    justify-content: center;
+}
